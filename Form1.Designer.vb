@@ -22,66 +22,66 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Boton = New System.Windows.Forms.Button()
+        Me.EntradaDato = New System.Windows.Forms.TextBox()
+        Me.NumCentena = New System.Windows.Forms.Label()
+        Me.NumDecena = New System.Windows.Forms.Label()
+        Me.NumUnidad = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'Button1
+        'Boton
         '
-        Me.Button1.Location = New System.Drawing.Point(283, 170)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(188, 43)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Boton.Location = New System.Drawing.Point(283, 170)
+        Me.Boton.Name = "Boton"
+        Me.Boton.Size = New System.Drawing.Size(188, 43)
+        Me.Boton.TabIndex = 0
+        Me.Boton.Text = "Button1"
+        Me.Boton.UseVisualStyleBackColor = True
         '
-        'TextBox1
+        'EntradaDato
         '
-        Me.TextBox1.Location = New System.Drawing.Point(329, 112)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 1
+        Me.EntradaDato.Location = New System.Drawing.Point(329, 112)
+        Me.EntradaDato.Name = "EntradaDato"
+        Me.EntradaDato.Size = New System.Drawing.Size(100, 20)
+        Me.EntradaDato.TabIndex = 1
         '
-        'Label1
+        'NumCentena
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(215, 283)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(39, 13)
-        Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Label1"
+        Me.NumCentena.AutoSize = True
+        Me.NumCentena.Location = New System.Drawing.Point(215, 283)
+        Me.NumCentena.Name = "NumCentena"
+        Me.NumCentena.Size = New System.Drawing.Size(47, 13)
+        Me.NumCentena.TabIndex = 2
+        Me.NumCentena.Text = "Centena"
         '
-        'Label2
+        'NumDecena
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(352, 283)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(39, 13)
-        Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Label2"
+        Me.NumDecena.AutoSize = True
+        Me.NumDecena.Location = New System.Drawing.Point(352, 283)
+        Me.NumDecena.Name = "NumDecena"
+        Me.NumDecena.Size = New System.Drawing.Size(45, 13)
+        Me.NumDecena.TabIndex = 3
+        Me.NumDecena.Text = "Decena"
         '
-        'Label3
+        'NumUnidad
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(491, 283)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(39, 13)
-        Me.Label3.TabIndex = 4
-        Me.Label3.Text = "Label3"
+        Me.NumUnidad.AutoSize = True
+        Me.NumUnidad.Location = New System.Drawing.Point(491, 283)
+        Me.NumUnidad.Name = "NumUnidad"
+        Me.NumUnidad.Size = New System.Drawing.Size(41, 13)
+        Me.NumUnidad.TabIndex = 4
+        Me.NumUnidad.Text = "Unidad"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.NumUnidad)
+        Me.Controls.Add(Me.NumDecena)
+        Me.Controls.Add(Me.NumCentena)
+        Me.Controls.Add(Me.EntradaDato)
+        Me.Controls.Add(Me.Boton)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
@@ -89,9 +89,9 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
+    Friend WithEvents Boton As Button
+    Friend WithEvents EntradaDato As TextBox
+    Friend WithEvents NumCentena As Label
+    Friend WithEvents NumDecena As Label
+    Friend WithEvents NumUnidad As Label
 End Class
